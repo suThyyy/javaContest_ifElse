@@ -1,0 +1,36 @@
+Giá điện trên mỗi 1KWH được tính toán dựa trên mức độ tiêu thụ như sau :
+
+Nếu tiêu thụ >= 1000KWH một tháng, 4500Đ/1KWH, tiền phụ trội là 1200000Đ
+
+Nếu tiêu thụ từ 800 đến dưới 1000KWH 1 tháng, 3900Đ/1KWH, tiền phụ trội là 900000Đ
+
+Nếu tiêu thụ từ 500 đến dưới 800KWH 1 tháng, 3700Đ/1KWH, tiền phụ trội là 800000Đ
+
+Nếu tiêu thụ dưới 500KWH 1 tháng, 3300Đ/1KWH, không có phụ trội
+
+Cho biết mức tiêu thụ điện trong 1 tháng của hộ gia đình X, bạn hãy xác định số tiền mà hộ gia đình này cần phải trả.
+
+Input Format
+
+Dòng duy nhất chứa số N : số KWH tiêu thụ
+
+Constraints
+
+1<=N<=5000
+
+Output Format
+
+In ra số tiền điện cần phải trả
+
+Sample Input 0
+
+1000
+Sample Output 0
+
+5700000
+Sample Input 1
+
+2000
+Sample Output 1
+
+10200000

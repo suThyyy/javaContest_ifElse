@@ -1,0 +1,24 @@
+Nhiệm vụ của bài toán này rất đơn giản, bạn hãy đổi giây sang giờ, phút, giây. Ví dụ 67s = 0 giờ, 1 phút, 7 giây.
+
+Gợi ý : Số giờ = N / 3600
+
+Tính số giây dư = N % 3600, tiếp tục chia cho 60 ra phút, phần lẻ còn lại là giây
+
+Input Format
+
+Dòng duy nhất chứa N : số giây cần đổi
+
+Constraints
+
+0<=N<=10^16
+
+Output Format
+
+In ra giờ, phút, giây theo mẫu.
+
+Sample Input 0
+
+392
+Sample Output 0
+
+0h : 6m : 32s
